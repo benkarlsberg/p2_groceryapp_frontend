@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <link rel="stylesheet" href="css/bootstrap.css">
@@ -7,5 +7,54 @@
 </head>
 <body>
   <h1>This is a test page</h1>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <style>
+        .btn{
+            margin: 20px 15%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Online Shopping Cart!</h1>
+
+    <div class="header">
+        <div class="topnav" id="myTopnav">
+            <a href="views/homepage.html" class="active">Home</a>
+            <a href="views/shoppingcart.html">Cart</a>
+            <a href="views/itemspage.html">Store</a>
+            <a href="views/cartHistory.html">Orders</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+
+    <p>
+        If this is your first time visiting this page, Click 'Create New Account' button to Create your new account.
+    </p>
+    
+    <br>
+    <a href="createuser.html"> 
+        <button class="btn">Create New Account</button>
+    </a>
+    <br>
+
+    <p>
+        If you already have an account, Click 'Sign in' button to login to your account.
+    </p>
+
+    <br>
+    <a href="loginuser.html"> 
+        <button class="btn">Sign in</button>
+    </a>
+
 </body>
 </html>
